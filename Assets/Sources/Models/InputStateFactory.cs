@@ -5,6 +5,6 @@
   }
 
   public static InputState AxisTriggered(string axisName) {
-    return new AxisTriggeredInputState(axisName);
+    return new AxisTriggeredInputState(JoystickInputUtils.Axes[axisName]);
   }
 }
